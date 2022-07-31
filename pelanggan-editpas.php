@@ -25,7 +25,7 @@
       <div class="card">
         <div class="card-header">
           <h3 class="card-title">Data</h3>
-          <a href="karyawan-tambah.php" class="btn btn-sm btn-danger float-right">Tambah</a>
+     <!--      <a href="karyawan-tambah.php" class="btn btn-sm btn-danger float-right">Tambah</a> -->
         </div>
         <div class="card-body">
         <table class="table table-bordered" id="example2">
@@ -59,7 +59,7 @@
             <td><img src="assets/gambar/<?= $row['foto'];?>" width="100"></td>
             <td style="text-align: center;">
                 <a href="pelanggan-edit-solo.php?id=<?= $row['id']; ?>" class="btn btn-sm btn-danger">Edit</a>
-                <a href="karyawan-index.php?id=<?= $row['id']; ?>&status=hapus" class="btn btn-sm btn-danger" onclick="return confirm('anda yakin ingin hapus data ini?');">Hapus</a>
+            
             </td>
           </tr>
 

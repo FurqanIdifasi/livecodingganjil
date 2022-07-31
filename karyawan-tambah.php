@@ -40,6 +40,7 @@
                <!--  <option value="pimpinan">Pimpinan</option> -->
                 <option value="teknisi">Teknisi</option>
                 <option value="admin">Admin</option>
+                <option value="pelanggan">Pelanggan</option>
               </select>
             </div>
             <div class="form-group">

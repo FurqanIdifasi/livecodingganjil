@@ -50,6 +50,7 @@
                <!--  <option value="pimpinan" <?= ($row['jabatan'] == 'pimpinan') ? 'selected' : ''; ?>>Pimpinan</option> -->
                 <option value="teknisi" <?= ($row['jabatan'] == 'teknisi') ? 'selected' : ''; ?>>Teknisi</option>
                 <option value="admin" <?= ($row['jabatan'] == 'admin') ? 'selected' : ''; ?>>Admin</option>
+                <option value="pelanggan" <?= ($row['jabatan'] == 'pelanggan') ? 'selected' : ''; ?>>Pelanggan</option>
               </select>
             </div>
             <div class="form-group">

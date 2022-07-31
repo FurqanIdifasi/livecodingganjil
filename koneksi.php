@@ -3,7 +3,7 @@ date_default_timezone_set("Asia/Makassar");
 $server 	= "localhost";
 $username	= "root";
 $pass		= "";
-$db 		= "telkom_psb"; //sesuaikan nama databasenya
+$db 		= "telkom_tes"; //sesuaikan nama databasenya
 $koneksi = mysqli_connect($server, $username, $pass, $db); //pastikan urutan pemanggilan variabel nya sama.
 
 //untuk cek jika koneksi gagal ke database
